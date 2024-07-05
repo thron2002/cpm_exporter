@@ -2,6 +2,12 @@
 
 CPM Exporter is a Python script that reads Counts Per Minute (CPM) data from a Geiger counter device and exposes it as a Prometheus metric. This tool is useful for monitoring radiation levels and integrating the data with Prometheus-based monitoring systems.
 
+In this case, this script is used with the following device:
+GQ GME-300E Plus
+
+You can find it here:
+https://www.amazon.com/GQ-GMC300EPlus-Fulfill-Radiation-Detector/dp/B00IN8TJYY/ref=sr_1_1?crid=3ULF988ER6909&dib=eyJ2IjoiMSJ9.RCCRR3xMHpXJQgAWy_XSCY37IpZhwyT_hG0Qav9Ooqt9aRNVXjY6tqGQZPVrHmoRLrg2BXPagb3npEKnJnTaWGPLiJUt7kKVxXOqBVzmTYQaumqvWkX7zfRtU4JHJ_1FQTk90oCIMlx3TNfwT1rrX64lKIkUaysMbA3sdJd9A_LDvNNIL4rtZD_pk5Q_pYOuNPBP1uMTnHnDQKFX9Sm7FhoShwcT4yJ7K0LpmB0lunM.0qbrJy_7SFRHb6StbkHVFRDN2XaXSKHV1b8tnGwP2xI&dib_tag=se&keywords=GME-300E+geiger&qid=1720195277&sprefix=gme-300e+geiger%2Caps%2C82&sr=8-1
+
 ## Features
 
 - Reads CPM data from a Geiger counter device via serial communication
